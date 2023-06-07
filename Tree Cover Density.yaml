@@ -1,0 +1,35 @@
+ID: tree_cover_density
+Description: Time series data depicting tree cover density across the EEA-39 region
+Preferred Platform: Rasdaman
+Preferred Method: Manual by the data requester themselves
+Axes:
+   - ''
+   - '    Lat, Long: horizontal extent - Europe; '
+   - '    regular, resolution: 10m, uom: metre '
+   - ''
+   - '    T: time, axis inserted to create time series database; '
+   - '         Time slice - "2018-01-01T20:12:02”; '
+   - '         lower bound same as upper bound '
+   - ''
+Null values:
+   - 255 – outside area
+(Meta) data Standards:
+   - standards data complies with   Commission Regulation (EU) No 1089/2010 of 23
+   November 2010 implementing Directive 2007/2/EC of the European Parliament and of
+   the Council as regards interoperability of spatial data sets and services
+   - ' Date of publication: 2010-12-08'
+APIs:
+   - OGC WMS
+   - WCS
+   - WCPS
+Access control: login-protected, access only for FAIRiCUBE beneficiaries
+Responsible: Jacobs/Constructor University, mbasak@jacobs-university.de
+Data Source: Origin of data – EEA, URL -- 
+  https://land.copernicus.eu/pan-european/high-resolution-layers/forests/tree-cover-density/status-maps/tree-cover-density-2018?tab=download
+Data Preprocessing: None in particular
+Quality Control: Quality assurance followed the ISO9001 standards for Quality Management
+  and the INSPIRE data quality elements
+Documents & publications: None
+License: License link - https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1159
+Ownership: EEA
+Personal Data: no personal data are captured in this datacube
